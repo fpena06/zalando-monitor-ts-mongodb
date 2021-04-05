@@ -15,6 +15,8 @@ Includes proxy handling, retry logic, saving products in a database & customized
 
 5. Import the .json files to your MongoDB database. Make sure to name your collection the same as the filename.
 6. If you want to use proxies, import the proxies.json to your MongoDB proxies collection. Make sure to fill in proxies in the json file.
+7. Add the product PIDS to the producs column in the stores table.
+8. Each region has their own App domain ID. I've included the 1 for NL, but you can find the other ones through easy HTTPS inspection on mobile.
 
 &nbsp;
 
